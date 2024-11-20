@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Internet Subscription</title>
+    <meta name="generator" content="DA-Formmaker 4.17.2">
+    <!--TEMPLATE:4.2-->
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
+    
+    <style type="text/css">
+        body { background-color:#FFFFFF;}
+h1 { color:#ffffff; font-family:Segoe UI,Arial,sans-serif; font-size:20pt; }
+p { color:#000000; font-family:Segoe UI,Arial,sans-serif; font-size:12pt; }
+textarea { color:#000000; font-family:Segoe UI,Arial,sans-serif; font-size:12pt; }
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled {
+	cursor: default !important;
+}
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ui-datepicker {
+	width: 17em;
+	padding: .2em .2em 0;
+	display: none;
+}
+.ui-datepicker .ui-datepicker-header {
+	position: relative;
+	padding: .2em 0;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	position: absolute;
+	top: 2px;
+	width: 1.8em;
+	height: 1.8em;
+}
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+	top: 1px;
+}
+.ui-datepicker .ui-datepicker-prev {
+	left: 2px;
+}
+.ui-datepicker .ui-datepicker-next {
+	right: 2px;
+}
+.ui-datepicker .ui-datepicker-prev-hover {
+	left: 1px;
+}
+.ui-datepicker .ui-datepicker-next-hover {
+	right: 1px;
+}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -8px;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-datepicker .ui-datepicker-title {
+	margin: 0 2.3em;
+	line-height: 1.8em;
+	text-align: center;
+}
+.ui-datepicker .ui-datepicker-title select {
+	font-size: 1em;
+	margin: 1px 0;
+}
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
+	width: 45%;
+}
+.ui-datepicker table {
+	width: 100%;
+	font-size: .9em;
+	border-collapse: collapse;
+	margin: 0 0 .4em;
+}
+.ui-datepicker-week-end,
+.ui-datepicker th {
+	padding: .7em .3em;
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+	border: 0;
+}
+.ui-datepicker td {
+	border: 0;
+	padding: 1px;
+}
+.ui-datepicker td span,
+.ui-datepicker td a {
+	display: block;
+	padding: .2em;
+	text-align: right;
+	text-decoration: none;
+}
+.ui-datepicker .ui-datepicker-buttonpane {
+	background-image: none;
+	margin: .7em 0 0 0;
+	padding: 0 .2em;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+.ui-datepicker .ui-datepicker-buttonpane button {
+	float: right;
+	margin: .5em .2em .4em;
+	cursor: pointer;
+	padding: .2em .6em .3em .6em;
+	width: auto;
+	overflow: visible;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: left;
+}
+
+
+/* icon support */
+.ui-menu-icons {
+     position: relative;
+}
+.ui-menu-icons .ui-menu-item {
+     padding-left: 2em;
+}
+
+/* left-aligned */
+.ui-menu .ui-icon {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: .2em;
+     margin: auto 0;
+}
+
+/* right-aligned */
+.ui-menu .ui-menu-icon {
+     left: auto;
+     right: 0;
+}
+
+/* Component containers
+----------------------------------*/
+.ui-widget {
+     font-family: Arial,Helvetica,Geneva; /*FONTCAL*/
+}
+.ui-widget .ui-widget {
+     font-size: 1em;
+}
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+     font-family: Arial,Helvetica,Geneva; /*FONTCAL*/
+     font-size: 1em;
+}
+.ui-widget-content {
+     border: 1px solid #FF0000; /*BORDERCAL*/
+     background: #00FFFF; /*BGCAL*/
+     color: #FFFFFF; /*TEXTCAL*/
+}
+
+.ui-widget-header {
+     border: 1px solid #FF0000;
+     background: #CCCCCC;/*BGHEADINGCAL*/
+     color: #FFFFFF;
+     font-weight: normal;
+}
+
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+     border: 1px solid #FF0000; /*FONTCAL*/
+     background: #000000; /*BGDAYCAL*/
+     font-weight: normal;
+     color: #FFFFFF;/*TEXTCAL*/
+}
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+     border-top-left-radius: 4px;
+}
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+     border-top-right-radius: 4px;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+     border-bottom-left-radius: 4px;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+     border-bottom-right-radius: 4px;
+}
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon {
+     width: 16px;
+     height: 16px;
+}
+.ui-icon,
+.ui-widget-content .ui-icon {
+     background-image: url("https://code.jquery.com/ui/1.11.2/themes/smoothness/images/ui-icons_222222_256x240.png");
+}
+.ui-widget-header .ui-icon {
+     background-image: url("https://code.jquery.com/ui/1.11.2/themes/smoothness/images/ui-icons_222222_256x240.png");
+}
+
+.ui-state-hover .ui-icon,
+.ui-state-focus .ui-icon {
+     background-image: url("https://code.jquery.com/ui/1.11.2/themes/smoothness/images/ui-icons_454545_256x240.png");
+}
+.ui-state-active .ui-icon {
+     background-image: url("https://code.jquery.com/ui/1.11.2/themes/smoothness/images/ui-icons_454545_256x240.png");
+}
+
+/* positioning */
+.ui-icon-circle-triangle-e { background-position: -48px -192px; }
+.ui-icon-circle-triangle-w { background-position: -80px -192px; }
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	/*border: 1px solid #999999;*/
+	border: 1px solid #FF0000;
+
+	font-weight: normal;
+	color: #212121;
+}
+
+div.ui-datepicker{
+	font-family: Arial,Helvetica,Geneva;
+	font-size:20px;
+}
+
+.ui-datepicker-unselectable .ui-state-default {
+    background: #CCCCCC;
+    color: #AAAAAA;
+}
+.datooltip {
+	position: relative;
+}
+.datooltip .datooltiptext {
+	visibility: hidden;
+	width: 200px;
+	background-color: #555555;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 5px 3px;
+	border-radius: 6px;
+	position: absolute;
+	z-index: 1;
+	bottom: 75%; /*old default 75%*/
+	left: 50%;
+	margin-left: -100px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+.datooltiptextmulti {
+	bottom: 105% !important;
+}
+.datooltipdropdown {
+	bottom: 100% !important;
+}
+.datooltipcheckboxlist {
+	left: 13px !important;
+	bottom: 105% !important;
+}
+.datooltippopup {
+	bottom: 65% !important;
+}
+.datooltipcheckbox {
+	left: 13px !important;
+	bottom: 125% !important;
+}
+.datooltipfile {
+	left: 100px !important;
+}
+.datooltip .datooltiptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555555 transparent transparent transparent;
+}
+.datooltip:hover .datooltiptext {
+	visibility: visible;
+	opacity: 1;
+}
+        /* Landscape phones and down */
+        @media (max-width: 480px) {
+            .mainContainer
+
+        {
+            width: 100%;
+        }
+
+        }
+
+        @media (min-width: 768px) {
+            .mainContainer {
+                width: 60%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        .internal {
+            display: none;
+        }
+
+        .labelwrapper {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .labelleft {
+            display: inline-block;
+            margin-right: 2px;
+          
+        }
+        .labelright {
+            display: inline-block;
+            margin-left: 2px;          
+        }
+
+        
+
+    </style>
+
+    <script type="text/javascript">
+      function addHiddenField(formID, name, value)
+{
+	var input = document.createElement("input");
+	input.setAttribute("type", "hidden");
+	input.setAttribute(name, "name_you_want");
+	input.setAttribute(value, "value_you_want");
+	document.getElementById(formID).appendChild(input);
+}
+
+function GetCookie(cookie_name)
+{
+  if (document.cookie.length>0)
+    {
+    cookie_start=document.cookie.indexOf(cookie_name + "=");
+    if (cookie_start!=-1)
+      { 
+      cookie_start=cookie_start + cookie_name.length+1; 
+      cookie_end=document.cookie.indexOf(";",cookie_start);
+      if (cookie_end==-1) cookie_end=document.cookie.length;
+      return unescape(document.cookie.substring(cookie_start,cookie_end));
+      } 
+    }
+  return "";
+}
+
+function str_replace(search, replace, subject) {
+	return subject.split(search).join(replace);
+}
+    </script>
+
+
+    <!-- DAFORMJSBEGIN -->
+    <!-- JSCAPTCHAREFRESH -->
+
+    <script type="text/javascript">
+
+    function SetCookieValues() {
+      
+}
+
+    function SetCookies() {
+        
+}
+
+    </script>
+
+    <script type="text/javascript">
+function chkFormular()
+{
+
+
+
+	return true;
+}
+</script>
+
+
+    
+</head>
+<body onLoad="SetCookieValues();">
+  
+<div class="w3-card-24 w3-aqua mainContainer">
+  <!-- FORMTITLE_BEGIN -->
+  <div class="w3-container w3-black">
+      <h1>Netric Internet Subscription</h1>
+  </div>
+<!-- FORMTITLE_END -->
+<!-- EINLEITUNGTEXT_BEGIN -->
+  <div class="w3-container">
+      <p class="textend"> Subscribe now and experience the power of ultra-fast internet tailored to your needs. Simply fill in the form below to embark on your journey towards uninterrupted online experiences!</p>
+  </div>
+<!-- EINLEITUNGTEXT_END -->
+
+  <form id="DA-Formmaker-Form" action="https://www.ekiwi-scripts.de/form/v4/formmail_v4.php" class="w3-container" method="POST" name="DAFORM" onSubmit="SetCookies();return chkFormular();" enctype="multipart/form-data" target="_blank">
+  <input type="hidden" name="formid" value="873701">
+  <input type="hidden" name="settings" value="cXZ7ZHJrcXZ7ZHI=">
+  <input type="hidden" name="redirect" value="https://netrichorsystems.net/thankYou.html">
+  <input type="hidden" name="subject" value="Internet Connection Request">
+  <input type="hidden" name="admin" value="eXJjZX50f3hlZG5kY3J6ZFdwenZ+ezl0eHo=">
+  <input type="hidden" name="admin1" value="fnlxeFd5cmNlfnR/eGVkbmRjcnpkOXlyYw==">
+  <input type="hidden" name="admin2" value="">
+  <input type="hidden" name="typemail" value="html">
+  <input type="hidden" name="crypt" value="1">
+  <input type="hidden" name="conf_csv" value="0">
+  <input type="hidden" name="conf_csv2" value="-1">
+  <input type="hidden" name="einleittext" value="{#Phone#}">
+  <input type="hidden" name="conf_MailtextEnd" value="{#Phone#}">
+  <input type="hidden" name="copyfields" value="-1">
+  <input type="hidden" name="copyip" value="-1">
+  <input type="hidden" name="hide_empty_fields" value="0">
+  <input type="hidden" name="settings_encoding" value="utf-8">  
+  <input type="hidden" name="conf_pdf" value="0">    
+  <input type="hidden" name="conf_lang" value="en">
+  <input type="hidden" name="ReturnToSender" value="0">
+  <input type="hidden" name="conf_copy_attachments" value="0">
+
+  
+<div class="w3-row">
+	<div class="w3-col m4">
+<div class="w3-container" id="daf-42864">
+	<p>
+	<div class="labelwrapper">
+		<div class="labelleft">
+			<label for="name" class="control-label">Full Name</label>
+		</div>
+	</div>
+	<input class="w3-input w3-border w3-round w3-white" type="text" name="name" id="name" placeholder="Julius Amadi" maxLength="100">
+		</p>
+</div>
+
+</div>
+<div class="w3-col m4">
+<div class="w3-container" id="daf-10846">
+	<p>
+	<div class="labelwrapper">
+		<div class="labelleft">
+			<label for="Phone" class="control-label">Phone#</label>
+		</div>
+	</div>
+	<input class="w3-input w3-border w3-round w3-white" type="text" name="Phone" id="Phone" placeholder="072202222222" maxLength="100" required oninvalid="this.setCustomValidity('Please enter phone number')"
+	oninput="this.setCustomValidity('')" pattern="[0-9]+">
+		</p>
+</div>
+
+</div>
+<div class="w3-col m4">
+<div class="w3-container" id="daf-94387">
+	<p>
+	<div class="labelwrapper">
+		<div class="labelleft">
+			<label for="Email" class="control-label">Email</label>
+		</div>
+	</div>
+	<input class="w3-input w3-border w3-round w3-white" type="text" name="Email" id="Email" placeholder="jamadi@gmail.com" maxLength="100">
+		</p>
+</div>
+
+</div>
+</div>
+
+<div class="w3-row">
+	<div class="w3-col m6">
+<div class="w3-container" id="daf-11082">
+	<p>
+	<div class="labelwrapper">
+		<div class="labelleft">
+			<label for="No_of_Devices" class="control-label">Approx. No. of Devices to be used</label>
+		</div>
+	</div>
+	<input class="w3-input w3-border w3-round w3-white" type="text" name="No_of_Devices" id="No_of_Devices" placeholder="5" maxLength="100">
+		</p>
+</div>
+
+</div>
+<div class="w3-col m6">
+<div class="w3-container" id="daf-70435">
+	<p>
+	<div class="labelwrapper">
+		<div class="labelleft">
+			<label for="House/Plot_No" class="control-label">House/Plot No/Office bulding</label>
+		</div>
+	</div>
+	<input class="w3-input w3-border w3-round w3-white" type="text" name="House/Plot_No" id="House/Plot_No" placeholder="B13" maxLength="100">
+		</p>
+</div>
+
+</div>
+</div>
+
+	<div class="datooltip">
+<div class="w3-container" id="daf-98022">
+	<p>
+	<div class="labelwrapper">
+		<div class="labelleft">
+			<label for="County" class="control-label">County</label>
+		</div>
+	</div>
+	<select class="w3-select w3-border w3-round w3-white" id="County" name="County" size="1" required oninvalid="this.setCustomValidity('State the county')"
+	oninput="this.setCustomValidity('')">
+	<option></option>
+			<option value="Mombasa">Mombasa</option>
+			<option value="Kwale">Kwale</option>
+			<option value="Kilifi">Kilifi</option>
+			<option value="Tana River">Tana River</option>
+			<option value="Lamu">Lamu</option>
+			<option value="Taita/Taveta">Taita/Taveta</option>
+			<option value="Garissa">Garissa</option>
+			<option value="Wajir">Wajir</option>
+			<option value="Mandera">Mandera</option>
+			<option value="Marsabit">Marsabit</option>
+			<option value="Isiolo">Isiolo</option>
+			<option value="Meru">Meru</option>
+			<option value="Tharaka-Nithi">Tharaka-Nithi</option>
+			<option value="Embu">Embu</option>
+			<option value="Kitui">Kitui</option>
+			<option value="Machakos">Machakos</option>
+			<option value="Makueni">Makueni</option>
+			<option value="Nyandarua">Nyandarua</option>
+			<option value="Nyeri">Nyeri</option>
+			<option value="Kirinyaga">Kirinyaga</option>
+			<option value="Murang’a">Murang’a</option>
+			<option value="Kiambu">Kiambu</option>
+			<option value="Turkana">Turkana</option>
+			<option value="West Pokot">West Pokot</option>
+			<option value="Samburu">Samburu</option>
+			<option value="Trans Nzoia">Trans Nzoia</option>
+			<option value="Uasin Gishu">Uasin Gishu</option>
+			<option value="Elgeyo/Marakwet">Elgeyo/Marakwet</option>
+			<option value="Nandi">Nandi</option>
+			<option value="Baringo">Baringo</option>
+			<option value="Laikipia">Laikipia</option>
+			<option value="Nakuru">Nakuru</option>
+			<option value="Narok">Narok</option>
+			<option value="Kajiado">Kajiado</option>
+			<option value="Kericho">Kericho</option>
+			<option value="Bomet">Bomet</option>
+			<option value="Kakamega">Kakamega</option>
+			<option value="Vihiga">Vihiga</option>
+			<option value="Bungoma">Bungoma</option>
+			<option value="Busia">Busia</option>
+			<option value="Siaya">Siaya</option>
+			<option value="Kisumu">Kisumu</option>
+			<option value="Homa Bay">Homa Bay</option>
+			<option value="Migori">Migori</option>
+			<option value="Kisii">Kisii</option>
+			<option value="Nyamira">Nyamira</option>
+			<option value="Nairobi City">Nairobi City</option>
+</select> 
+	<span class="datooltiptext">county</span>
+	</div>
+		</p>
+</div>
+
+<div class="w3-container" id="daf-51458">
+	<p>
+	<div class="labelwrapper">
+		<div class="labelleft">
+			<label for="Location" class="control-label">Location</label>
+		</div>
+	</div>
+	<input class="w3-input w3-border w3-round w3-white" type="text" name="Location" id="Location" placeholder="Ngata, Nakuru" maxLength="100" required oninvalid="this.setCustomValidity('State location name')"
+	oninput="this.setCustomValidity('')">
+		</p>
+</div>
+
+<div class="w3-container" id="daf-98164">
+	<p>
+	<div class="labelwrapper">
+		<div class="labelleft">
+			<label for="Any_Other_Info_" class="control-label">Any Other Info.</label>
+		</div>
+	</div>
+	<div>	<textarea class="w3-input w3-border w3-round w3-white" type="text" style="resize:none" name="Any_Other_Info_" id="Any_Other_Info_" placeholder="Write any other details" rows="3"></textarea>
+	</div>		</p>
+</div>
+
+<div class="w3-container" id="daf-69696">
+	<p>
+	<div class="labelwrapper">
+		<div class="labelleft">
+			<label for="Installation_Date" class="control-label">Preferred Installation Date</label>
+		</div>
+	</div>
+	<input class="w3-input w3-border w3-round w3-white" type="text" name="Installation_Date" id="Installation_Date" placeholder="">
+		</p>
+</div>
+
+
+
+
+<div class="w3-container">
+    <p class="textend">NSL@2024</p>
+  <hr/>
+</div>
+
+<div class="w3-row">
+  <div class="w3-col m6">
+    <div class="w3-container">
+      <p>
+      <button type="submit" class="w3-btn w3-black">Submit</button>     
+      <button type="reset" class="w3-btn w3-red">Reset</button>
+      <button class="w3-btn w3-light-grey" type="button" onClick="javascript: window.print()">Print</button>
+      </p>
+    </div>
+  </div>
+  <div class="w3-col m6">
+    <div style="text-align: right;" class="w3-container">
+      <p>
+      
+      
+      </p>
+    </div>
+  </div>
+</div>
+
+
+</form>
+
+</div>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  function inIframe () {
+      try {
+          return window.self !== window.top;
+      } catch (e) {
+          return true;
+      }
+  }
+
+  function openDialog(nameDialog, idOfButton)
+  {
+    var rect = document.getElementById(idOfButton).getBoundingClientRect();
+
+    var paddingTop = 100;
+    var newPaddingTop = rect.top - 200;
+    if (newPaddingTop < paddingTop)
+    {
+      newPaddingTop = paddingTop;
+    }
+
+    document.getElementById(nameDialog).style.display='block';
+
+    if (inIframe())
+    {
+      document.getElementById(nameDialog).style.paddingTop=newPaddingTop + 'px';
+    }
+  }
+</script>
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+$(document).ready(function () {
+    var startDate = new Date();
+startDate.setDate(startDate.getDate() - 1 ); 
+$('#Installation_Date').datepicker({
+       prevText: '<back', prevStatus: '',
+        prevJumpText: '&#x3c;&#x3c;', prevJumpStatus: '',
+        nextText: 'Next>', nextStatus: '',
+        nextJumpText: '&#x3e;&#x3e;', nextJumpStatus: '',
+        currentText: 'today', currentStatus: '',
+        todayText: 'today', todayStatus: '',
+        clearText: '-', clearStatus: '',
+        closeText: 'close', closeStatus: '',
+        monthNames: ['January','February','March','April','May','June',
+'July','August','September','October','November','December'],
+        monthNamesShort: ['Jan','Feb','Mar','Apr','May',
+'Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+        dayNames: ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],
+        dayNamesShort: ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'],
+        dayNamesMin: ['Su','Mo','Tu','We','Th','Fr','Sa'],
+        showMonthAfterYear: false,
+        changeMonth: true,
+        changeYear: true,
+        firstDay: 1,
+        minDate: startDate,
+        defaultDate: "01.01.2023",
+        
+        yearRange: "2023:2027",   
+        dateFormat:'dd.mm.yy'
+    } 
+  );
+
+
+
+
+    
+});
+</script>
+
+<!DOCTYPE html>
+<html>
+<body>
+<p>NSL@2024 Read agreement <a href="https://netrichorsystems.net/terms.html">HERE</a></p>
+</body>
+</html>
+
+ 
+</body>
+</html>

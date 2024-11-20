@@ -1,0 +1,622 @@
+<xml>
+  <FileInfo>
+    <Prog>DA-FormMaker</Prog>
+    <SoftwareVersion>4.17.2</SoftwareVersion>
+    <Version>2</Version>
+  </FileInfo>
+  <FileContent>
+    <edtFormTitel>Netric Internet Subscription</edtFormTitel>
+    <memoEinleitung> Subscribe now and experience the power of ultra-fast internet tailored to your needs. Simply fill in the form below to embark on your journey towards uninterrupted online experiences!</memoEinleitung>
+    <memoTextEnde>NSL@2024</memoTextEnde>
+    <edtTabWidth>60%</edtTabWidth>
+    <cboTabAusrichtung>0</cboTabAusrichtung>
+    <chkPrintButton>True</chkPrintButton>
+    <chkResetButton>True</chkResetButton>
+    <edtPrint>Print</edtPrint>
+    <edtSendenButton>Submit</edtSendenButton>
+    <edtNextButton>Next</edtNextButton>
+    <edtPreviousButton>Previous</edtPreviousButton>
+    <edtCancelButton>Reset</edtCancelButton>
+    <ComboFormType>2</ComboFormType>
+    <cboFontHeader>Arial,Helvetica,Geneva</cboFontHeader>
+    <edtSizeHeader>12</edtSizeHeader>
+    <cboFontForm>Arial,Helvetica,Geneva</cboFontForm>
+    <edtSizeForm>10</edtSizeForm>
+    <edtBGPicture>
+    </edtBGPicture>
+    <edtHGColor>FFFFFF</edtHGColor>
+    <edtHeaderColor>000000</edtHeaderColor>
+    <edtTextColor>000080</edtTextColor>
+    <edtTabColor>F2F2F2</edtTabColor>
+    <cboStandardButton>True</cboStandardButton>
+    <edtHintergrundButton>a0a0a4</edtHintergrundButton>
+    <edtFarbeButton>000000</edtFarbeButton>
+    <EdtColorBorderButton>000000</EdtColorBorderButton>
+    <cboRahmenButton>solid</cboRahmenButton>
+    <edtStaerkeButton>1</edtStaerkeButton>
+    <cboStaerkeRahmen>px</cboStaerkeRahmen>
+    <cboStandardFeld>True</cboStandardFeld>
+    <edtHGFormField>a0a0a4</edtHGFormField>
+    <edtColorFormField>000000</edtColorFormField>
+    <edtRahmenFormField>solid</edtRahmenFormField>
+    <edtStaerkeFormField>1</edtStaerkeFormField>
+    <cboRahmenFormField>px</cboRahmenFormField>
+    <cboFontFormField>Arial,Helvetiva,Geneva</cboFontFormField>
+    <edtSizeFormField>12</edtSizeFormField>
+    <cboSchriftFormEinheit>px</cboSchriftFormEinheit>
+    <edtFontColorFormField>000000</edtFontColorFormField>
+    <ClassicTransparentTable>False</ClassicTransparentTable>
+    <Bootstrap_edtHGColor>f8f9fa</Bootstrap_edtHGColor>
+    <Bootstrap_edtHeaderColor>000000</Bootstrap_edtHeaderColor>
+    <Bootstrap_edtTextColor>000000</Bootstrap_edtTextColor>
+    <Bootstrap_cboFontHeader>"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"</Bootstrap_cboFontHeader>
+    <Bootstrap_cboFontForm>"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"</Bootstrap_cboFontForm>
+    <Bootstrap_edtSizeHeader>18</Bootstrap_edtSizeHeader>
+    <Bootstrap_edtSizeForm>12</Bootstrap_edtSizeForm>
+    <BootstrapFormFieldBackground>FFFFFF</BootstrapFormFieldBackground>
+    <BootstrapFormFieldActiveBackground>FFFFFF</BootstrapFormFieldActiveBackground>
+    <Bootstrap_SpinBoxLeftColumn>2</Bootstrap_SpinBoxLeftColumn>
+    <Bootstrap_ComboFormFieldSize>0</Bootstrap_ComboFormFieldSize>
+    <Bootstrap_CheckBoxSendButton>True</Bootstrap_CheckBoxSendButton>
+    <Bootstrap_SendButtonFontColorStandard>FFFFFF</Bootstrap_SendButtonFontColorStandard>
+    <Bootstrap_SendButtonBackgroundStandard>016080</Bootstrap_SendButtonBackgroundStandard>
+    <Bootstrap_SendButtonFontMouseOver>FFFFFF</Bootstrap_SendButtonFontMouseOver>
+    <Bootstrap_SendButtonBackgroundMouseOver>00526E</Bootstrap_SendButtonBackgroundMouseOver>
+    <Bootstrap_CheckBoxResetButton>True</Bootstrap_CheckBoxResetButton>
+    <Bootstrap_ResetButtonFontColorStandard>FFFFFF</Bootstrap_ResetButtonFontColorStandard>
+    <Bootstrap_ResetButtonBackgroundStandard>AB1313</Bootstrap_ResetButtonBackgroundStandard>
+    <Bootstrap_ResetButtonFontMouseOver>FFFFFF</Bootstrap_ResetButtonFontMouseOver>
+    <Bootstrap_ResetButtonBackgroundMouseOver>8A0606</Bootstrap_ResetButtonBackgroundMouseOver>
+    <Bootstrap_CheckBoxPrintButton>True</Bootstrap_CheckBoxPrintButton>
+    <Bootstrap_PrintButtonFontColorStandard>FFFFFF</Bootstrap_PrintButtonFontColorStandard>
+    <Bootstrap_PrintButtonBackgroundStandard>707070</Bootstrap_PrintButtonBackgroundStandard>
+    <Bootstrap_PrintButtonFontMouseOver>FFFFFF</Bootstrap_PrintButtonFontMouseOver>
+    <Bootstrap_PrintButtonBackgroundMouseOver>4A4A4A</Bootstrap_PrintButtonBackgroundMouseOver>
+    <Bootstrap_CheckBoxNextButton>True</Bootstrap_CheckBoxNextButton>
+    <Bootstrap_NextButtonFontColorStandard>FFFFFF</Bootstrap_NextButtonFontColorStandard>
+    <Bootstrap_NextButtonBackgroundStandard>007BFF</Bootstrap_NextButtonBackgroundStandard>
+    <Bootstrap_NextButtonFontMouseOver>FFFFFF</Bootstrap_NextButtonFontMouseOver>
+    <Bootstrap_NextButtonBackgroundMouseOver>0069D9</Bootstrap_NextButtonBackgroundMouseOver>
+    <Bootstrap_CheckBoxPreviousButton>True</Bootstrap_CheckBoxPreviousButton>
+    <Bootstrap_PreviousButtonFontColorStandard>FFFFFF</Bootstrap_PreviousButtonFontColorStandard>
+    <Bootstrap_PreviousButtonBackgroundStandard>6C757D</Bootstrap_PreviousButtonBackgroundStandard>
+    <Bootstrap_PreviousButtonFontMouseOver>FFFFFF</Bootstrap_PreviousButtonFontMouseOver>
+    <Bootstrap_PreviousButtonBackgroundMouseOver>5A6268</Bootstrap_PreviousButtonBackgroundMouseOver>
+    <edtEMail>netrichorsystems@gmail.com</edtEMail>
+    <edtEMail1>info@netrichorsystems.net</edtEMail1>
+    <edtEMail2>
+    </edtEMail2>
+    <cbCryptAddr>True</cbCryptAddr>
+    <cboMailFormat>html</cboMailFormat>
+    <edtBetreff>Internet Connection Request</edtBetreff>
+    <edtTitel>Internet Subscription</edtTitel>
+    <edtDanke>https://netrichorsystems.net/thankYou.html</edtDanke>
+    <chkAbsender>False</chkAbsender>
+    <cboTarget>_blank</cboTarget>
+    <ip_informationen>True</ip_informationen>
+    <HTMLExportFileName>
+    </HTMLExportFileName>
+    <IPErrorPage>
+    </IPErrorPage>
+    <FileErrorPage>
+    </FileErrorPage>
+    <CaptchaErrorPage>
+    </CaptchaErrorPage>
+    <CaptchaErrorMessage>Wrong input in spam proctecion field. Please check your input.</CaptchaErrorMessage>
+    <encoding>utf-8</encoding>
+    <HtmlTemplate>
+    </HtmlTemplate>
+    <HtmlTemplateAlt>
+    </HtmlTemplateAlt>
+    <hide_empty_fields>False</hide_empty_fields>
+    <kopie_absender>True</kopie_absender>
+    <HtmlTemplateBootstrap>
+    </HtmlTemplateBootstrap>
+    <HtmlTemplateBootstrapAlt>
+    </HtmlTemplateBootstrapAlt>
+    <ProjectSettings_author>
+    </ProjectSettings_author>
+    <ProjectSettings_comment>
+    </ProjectSettings_comment>
+    <ProjectSettings_title>
+    </ProjectSettings_title>
+    <ProjectSettings_company>
+    </ProjectSettings_company>
+    <ProjectSettings_url>http://</ProjectSettings_url>
+    <CalendarDesign_cboFont>Arial,Helvetica,Geneva</CalendarDesign_cboFont>
+    <CalendarDesign_edtFontSize>20</CalendarDesign_edtFontSize>
+    <CalendarDesign_edtTextColor>FFFFFF</CalendarDesign_edtTextColor>
+    <CalendarDesign_edtBGColorDay>000000</CalendarDesign_edtBGColorDay>
+    <CalendarDesign_edtBGColorHeader>CCCCCC</CalendarDesign_edtBGColorHeader>
+    <CalendarDesign_edtTextColorHeader>000000</CalendarDesign_edtTextColorHeader>
+    <CalendarDesign_edtBGColorCal>00FFFF</CalendarDesign_edtBGColorCal>
+    <CalendarDesign_edtBorderSize>1</CalendarDesign_edtBorderSize>
+    <CalendarDesign_edtBorderType>solid</CalendarDesign_edtBorderType>
+    <CalendarDesign_edtBorderColor>FF0000</CalendarDesign_edtBorderColor>
+    <CalendarDesign_cboDateFormat>0</CalendarDesign_cboDateFormat>
+    <CalenderDesignDisabledDayBackgroundColor>CCCCCC</CalenderDesignDisabledDayBackgroundColor>
+    <CalenderDesignDisabledDayColor>AAAAAA</CalenderDesignDisabledDayColor>
+    <CalendarLanguage>en</CalendarLanguage>
+    <chkCaptcha>False</chkCaptcha>
+    <edtCaptchaText1>Spam protection</edtCaptchaText1>
+    <memoMailtext>{#Phone#}</memoMailtext>
+    <MemoMailtextEnd>{#Phone#}</MemoMailtextEnd>
+    <cboFormMailer>https://www.ekiwi-scripts.de/form/v4/formmail_v4.php</cboFormMailer>
+    <HiddenField>False</HiddenField>
+    <FtpProfile>
+    </FtpProfile>
+    <FtpUploadFileName>form.html</FtpUploadFileName>
+    <FtpFolder>
+    </FtpFolder>
+    <UseLabelInMail>False</UseLabelInMail>
+    <Csv>False</Csv>
+    <Csv2>True</Csv2>
+    <EdtCaptchaErrorMsg>Error: Captcha input is incorrect.</EdtCaptchaErrorMsg>
+    <CaptchaAjax>True</CaptchaAjax>
+    <MarkMandatory>False</MarkMandatory>
+    <MarkMandatoryStr>*</MarkMandatoryStr>
+    <TransparentBackground>False</TransparentBackground>
+    <FormName>DAFORM</FormName>
+    <LinkBootstrap>https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/</LinkBootstrap>
+    <LinkJQuery>https://code.jquery.com/jquery-1.11.2.min.js</LinkJQuery>
+    <LinkJQueryUI>https://code.jquery.com/ui/1.11.2/jquery-ui.min.js</LinkJQueryUI>
+    <LinkJQueryUICss>https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.min.css</LinkJQueryUICss>
+    <LinkW3CSS>https://www.w3schools.com/lib/w3.css</LinkW3CSS>
+    <HeadCode>
+    </HeadCode>
+    <FootCode>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+&lt;p&gt;NSL@2024 Read agreement &lt;a href="https://netrichorsystems.net/terms.html"&gt;HERE&lt;/a&gt;&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+ </FootCode>
+    <TimeFieldDesign_BackgroundColor>ffffff</TimeFieldDesign_BackgroundColor>
+    <TimeFieldDesign_BorderColor>000000</TimeFieldDesign_BorderColor>
+    <TimeFieldDesign_BorderSize>1</TimeFieldDesign_BorderSize>
+    <TimeFieldDesign_FontColor>111111</TimeFieldDesign_FontColor>
+    <TimeFieldDesign_FontHoverColor>ffffff</TimeFieldDesign_FontHoverColor>
+    <TimeFieldDesign_SelectionColor>2196f3</TimeFieldDesign_SelectionColor>
+    <TimeFieldDesign_AdditionalString>
+    </TimeFieldDesign_AdditionalString>
+    <TimeFieldDesign_AMPM>False</TimeFieldDesign_AMPM>
+    <TooltipBackColor>555555</TooltipBackColor>
+    <TooltipBorderColor>555555</TooltipBorderColor>
+    <TooltipFontColor>FFFFFF</TooltipFontColor>
+    <TooltipWidth>200</TooltipWidth>
+    <TooltipStyle>0</TooltipStyle>
+    <AttachAsPdf>False</AttachAsPdf>
+    <FileUploadsInCopy>False</FileUploadsInCopy>
+    <w3css>
+      <FontHeading>Segoe UI,Arial,sans-serif</FontHeading>
+      <FontText>Segoe UI,Arial,sans-serif</FontText>
+      <HeadingSize>20</HeadingSize>
+      <TextColor>w3-black</TextColor>
+      <TextSize>12</TextSize>
+      <BackgroundColor>w3-aqua</BackgroundColor>
+      <BackgroundColorPage>FFFFFF</BackgroundColorPage>
+      <HeadlineColor>w3-white</HeadlineColor>
+      <HeadlineBackground>w3-black</HeadlineBackground>
+      <FormBorderType>7</FormBorderType>
+      <FormFieldStyle>2</FormFieldStyle>
+      <FieldBackgroundColor>w3-white</FieldBackgroundColor>
+      <ButtonSendColor>w3-black</ButtonSendColor>
+      <ButtonResetColor>w3-red</ButtonResetColor>
+      <ButtonPrintColor>w3-light-grey</ButtonPrintColor>
+      <ButtonNextColor>w3-teal</ButtonNextColor>
+      <ButtonPreviousColor>w3-dark-grey</ButtonPreviousColor>
+      <HtmlTemplateW3CSS>
+      </HtmlTemplateW3CSS>
+      <FieldStyle>
+        <FieldStyleType>0</FieldStyleType>
+        <BackgroundColor>FFFFFF</BackgroundColor>
+        <BorderColor>000000</BorderColor>
+        <Borderradius>3</Borderradius>
+        <BorderWidth>1</BorderWidth>
+        <CheckedColor>FFFFFF</CheckedColor>
+        <CheckedFontColor>000000</CheckedFontColor>
+        <Color1>FF0000</Color1>
+        <Color2>00FF00</Color2>
+        <FontColor>000000</FontColor>
+        <FontSize>12</FontSize>
+        <Height>10</Height>
+        <Width>50</Width>
+      </FieldStyle>
+    </w3css>
+    <bootstrap>
+      <BorderRadius>4</BorderRadius>
+      <BorderStyle>solid</BorderStyle>
+      <BorderWidth>1</BorderWidth>
+      <ChkCustom>False</ChkCustom>
+      <ColorActiveFieldBorder>66AFE9</ColorActiveFieldBorder>
+      <ColorFieldBorder>CCCCCC</ColorFieldBorder>
+      <ColorInnerGlow>000000</ColorInnerGlow>
+      <ColorOuterGlow>66afe9</ColorOuterGlow>
+      <InnerGlowTrans>8</InnerGlowTrans>
+      <InnerGlowWidth>1</InnerGlowWidth>
+      <OuterGlowTrans>60</OuterGlowTrans>
+      <OuterGlowWidth>8</OuterGlowWidth>
+      <ResponsiveOptimization>2</ResponsiveOptimization>
+      <MarginFormGroupValue>1</MarginFormGroupValue>
+      <MarginFormGroupUnit>rem</MarginFormGroupUnit>
+      <FontColor>000000</FontColor>
+      <FontColorActive>000000</FontColorActive>
+      <FieldStyle>
+        <FieldStyleType>0</FieldStyleType>
+        <BackgroundColor>FFFFFF</BackgroundColor>
+        <BorderColor>000000</BorderColor>
+        <Borderradius>3</Borderradius>
+        <BorderWidth>1</BorderWidth>
+        <CheckedColor>FFFFFF</CheckedColor>
+        <CheckedFontColor>000000</CheckedFontColor>
+        <Color1>FF0000</Color1>
+        <Color2>00FF00</Color2>
+        <FontColor>000000</FontColor>
+        <FontSize>12</FontSize>
+        <Height>10</Height>
+        <Width>50</Width>
+      </FieldStyle>
+    </bootstrap>
+    <ExportWizardData>
+      <SelectedOption>0</SelectedOption>
+      <StandardIFrame>
+        <Width>100%</Width>
+        <Height>800</Height>
+        <Responsive>True</Responsive>
+        <Frameborder>False</Frameborder>
+        <Name>iframe</Name>
+        <FileName>form.html</FileName>
+        <Scrollbars>0</Scrollbars>
+        <ExportPath>
+        </ExportPath>
+        <CompressHtml>False</CompressHtml>
+        <Transparent>False</Transparent>
+      </StandardIFrame>
+      <EmbeddedIFrame>
+        <Width>100%</Width>
+        <Height>800</Height>
+        <Responsive>True</Responsive>
+        <Frameborder>False</Frameborder>
+        <Name>iframe</Name>
+        <FileName>form.html</FileName>
+        <Scrollbars>0</Scrollbars>
+        <ExportPath>
+        </ExportPath>
+        <CompressHtml>False</CompressHtml>
+        <Transparent>False</Transparent>
+      </EmbeddedIFrame>
+    </ExportWizardData>
+    <UploadServiceData>
+      <UploadID>6d49ca06-63f6-4bae-b67b-ba7f11398ae6</UploadID>
+    </UploadServiceData>
+    <ItemList>
+      <forms>
+        <typ>TMultiColumn</typ>
+        <name>
+        </name>
+        <beschriftung>
+        </beschriftung>
+        <beschriftungnach>
+        </beschriftungnach>
+        <pflicht>False</pflicht>
+        <Cookie>False</Cookie>
+        <meldung>
+        </meldung>
+        <Guid>f41009b0-aa1c-48ba-ac56-fc2c62eb2c35</Guid>
+        <Id>98787</Id>
+        <Pattern>
+        </Pattern>
+        <CheckboxField>False</CheckboxField>
+        <TooltipText>
+        </TooltipText>
+        <SubFields>
+          <forms>
+            <typ>TEinzField</typ>
+            <name>name</name>
+            <beschriftung>Full Name</beschriftung>
+            <beschriftungnach>
+            </beschriftungnach>
+            <pflicht>False</pflicht>
+            <Cookie>False</Cookie>
+            <meldung>required</meldung>
+            <Guid>cc167d84-0413-4a26-85c4-3f4a24ea98e9</Guid>
+            <Id>42864</Id>
+            <Pattern>
+            </Pattern>
+            <CheckboxField>False</CheckboxField>
+            <TooltipText>
+            </TooltipText>
+            <groesse>15</groesse>
+            <maxLaenge>100</maxLaenge>
+            <vorgabeloeschen>True</vorgabeloeschen>
+            <pflichttyp>0</pflichttyp>
+            <mindestLaenge>
+            </mindestLaenge>
+            <vorgabewert>Julius Amadi</vorgabewert>
+          </forms>
+          <forms>
+            <typ>TEinzField</typ>
+            <name>Phone</name>
+            <beschriftung>Phone#</beschriftung>
+            <beschriftungnach>
+            </beschriftungnach>
+            <pflicht>True</pflicht>
+            <Cookie>False</Cookie>
+            <meldung>Please enter phone number</meldung>
+            <Guid>75ff8402-1a9b-4be5-8883-9aab4d09369e</Guid>
+            <Id>10846</Id>
+            <Pattern>
+            </Pattern>
+            <CheckboxField>False</CheckboxField>
+            <TooltipText>
+            </TooltipText>
+            <groesse>15</groesse>
+            <maxLaenge>100</maxLaenge>
+            <vorgabeloeschen>True</vorgabeloeschen>
+            <pflichttyp>2</pflichttyp>
+            <mindestLaenge>
+            </mindestLaenge>
+            <vorgabewert>072202222222</vorgabewert>
+          </forms>
+          <forms>
+            <typ>TEinzField</typ>
+            <name>Email</name>
+            <beschriftung>Email</beschriftung>
+            <beschriftungnach>
+            </beschriftungnach>
+            <pflicht>False</pflicht>
+            <Cookie>False</Cookie>
+            <meldung>
+            </meldung>
+            <Guid>f25e9d5b-0835-4aea-92ba-833f5c86a23b</Guid>
+            <Id>94387</Id>
+            <Pattern>
+            </Pattern>
+            <CheckboxField>False</CheckboxField>
+            <TooltipText>
+            </TooltipText>
+            <groesse>15</groesse>
+            <maxLaenge>100</maxLaenge>
+            <vorgabeloeschen>True</vorgabeloeschen>
+            <pflichttyp>1</pflichttyp>
+            <mindestLaenge>
+            </mindestLaenge>
+            <vorgabewert>jamadi@gmail.com</vorgabewert>
+          </forms>
+        </SubFields>
+      </forms>
+      <forms>
+        <typ>TMultiColumn</typ>
+        <name>
+        </name>
+        <beschriftung>
+        </beschriftung>
+        <beschriftungnach>
+        </beschriftungnach>
+        <pflicht>False</pflicht>
+        <Cookie>False</Cookie>
+        <meldung>
+        </meldung>
+        <Guid>93e3c30e-db75-4551-a3ba-423c9c584c15</Guid>
+        <Id>77531</Id>
+        <Pattern>
+        </Pattern>
+        <CheckboxField>False</CheckboxField>
+        <TooltipText>
+        </TooltipText>
+        <SubFields>
+          <forms>
+            <typ>TEinzField</typ>
+            <name>No_of_Devices</name>
+            <beschriftung>Approx. No. of Devices to be used</beschriftung>
+            <beschriftungnach>
+            </beschriftungnach>
+            <pflicht>False</pflicht>
+            <Cookie>False</Cookie>
+            <meldung>
+            </meldung>
+            <Guid>3e8d7f6a-e36d-4ba2-a39d-d818ba6b9af7</Guid>
+            <Id>11082</Id>
+            <Pattern>
+            </Pattern>
+            <CheckboxField>False</CheckboxField>
+            <TooltipText>
+            </TooltipText>
+            <groesse>15</groesse>
+            <maxLaenge>100</maxLaenge>
+            <vorgabeloeschen>True</vorgabeloeschen>
+            <pflichttyp>2</pflichttyp>
+            <mindestLaenge>
+            </mindestLaenge>
+            <vorgabewert>5</vorgabewert>
+          </forms>
+          <forms>
+            <typ>TEinzField</typ>
+            <name>House/Plot_No</name>
+            <beschriftung>House/Plot No</beschriftung>
+            <beschriftungnach>
+            </beschriftungnach>
+            <pflicht>False</pflicht>
+            <Cookie>False</Cookie>
+            <meldung>
+            </meldung>
+            <Guid>55696132-4ac1-4820-b5c6-aebfa439f18b</Guid>
+            <Id>70435</Id>
+            <Pattern>
+            </Pattern>
+            <CheckboxField>False</CheckboxField>
+            <TooltipText>
+            </TooltipText>
+            <groesse>15</groesse>
+            <maxLaenge>100</maxLaenge>
+            <vorgabeloeschen>True</vorgabeloeschen>
+            <pflichttyp>0</pflichttyp>
+            <mindestLaenge>
+            </mindestLaenge>
+            <vorgabewert>B13</vorgabewert>
+          </forms>
+        </SubFields>
+      </forms>
+      <forms>
+        <typ>TDropDownField</typ>
+        <name>County</name>
+        <beschriftung>County</beschriftung>
+        <beschriftungnach>
+        </beschriftungnach>
+        <pflicht>True</pflicht>
+        <Cookie>False</Cookie>
+        <meldung>State the county</meldung>
+        <Guid>ab6ecb9e-faf2-4300-953b-8c38b639a870</Guid>
+        <Id>98022</Id>
+        <Pattern>
+        </Pattern>
+        <CheckboxField>False</CheckboxField>
+        <TooltipText>county</TooltipText>
+        <vorgabewert>
+        </vorgabewert>
+        <groesse>1</groesse>
+        <felder>Mombasa
+Kwale
+Kilifi
+Tana River
+Lamu
+Taita/Taveta
+Garissa
+Wajir
+Mandera
+Marsabit
+Isiolo
+Meru
+Tharaka-Nithi
+Embu
+Kitui
+Machakos
+Makueni
+Nyandarua
+Nyeri
+Kirinyaga
+Murang’a
+Kiambu
+Turkana
+West Pokot
+Samburu
+Trans Nzoia
+Uasin Gishu
+Elgeyo/Marakwet
+Nandi
+Baringo
+Laikipia
+Nakuru
+Narok
+Kajiado
+Kericho
+Bomet
+Kakamega
+Vihiga
+Bungoma
+Busia
+Siaya
+Kisumu
+Homa Bay
+Migori
+Kisii
+Nyamira
+Nairobi City</felder>
+        <multiple>False</multiple>
+      </forms>
+      <forms>
+        <typ>TEinzField</typ>
+        <name>Location</name>
+        <beschriftung>Location</beschriftung>
+        <beschriftungnach>
+        </beschriftungnach>
+        <pflicht>True</pflicht>
+        <Cookie>False</Cookie>
+        <meldung>State location name</meldung>
+        <Guid>a071e64d-ce4b-401e-95c7-30d26f3c8c3f</Guid>
+        <Id>51458</Id>
+        <Pattern>
+        </Pattern>
+        <CheckboxField>False</CheckboxField>
+        <TooltipText>
+        </TooltipText>
+        <groesse>15</groesse>
+        <maxLaenge>100</maxLaenge>
+        <vorgabeloeschen>True</vorgabeloeschen>
+        <pflichttyp>0</pflichttyp>
+        <mindestLaenge>
+        </mindestLaenge>
+        <vorgabewert>Ngata, Nakuru</vorgabewert>
+      </forms>
+      <forms>
+        <typ>TMehrzField</typ>
+        <name>Any_Other_Info_</name>
+        <beschriftung>Any Other Info.</beschriftung>
+        <beschriftungnach>
+        </beschriftungnach>
+        <pflicht>False</pflicht>
+        <Cookie>False</Cookie>
+        <meldung>
+        </meldung>
+        <Guid>6ddbbd12-9b7f-4c48-a665-3dd5b6a008e6</Guid>
+        <Id>98164</Id>
+        <Pattern>
+        </Pattern>
+        <CheckboxField>False</CheckboxField>
+        <TooltipText>
+        </TooltipText>
+        <vorgabewert>Write any other details</vorgabewert>
+        <maxLaenge>
+        </maxLaenge>
+        <vorgabeloeschen>True</vorgabeloeschen>
+        <hoehe>3</hoehe>
+        <breite>40</breite>
+        <zeichenAnzeige>False</zeichenAnzeige>
+        <zeichenAnzeigeText>
+        </zeichenAnzeigeText>
+      </forms>
+      <forms>
+        <typ>TCalField</typ>
+        <name>Installation_Date</name>
+        <beschriftung>Preferred Installation Date</beschriftung>
+        <beschriftungnach>
+        </beschriftungnach>
+        <pflicht>False</pflicht>
+        <Cookie>False</Cookie>
+        <meldung>
+        </meldung>
+        <Guid>0238cf12-80fd-4022-bed6-a2fe16652c36</Guid>
+        <Id>69696</Id>
+        <Pattern>
+        </Pattern>
+        <CheckboxField>False</CheckboxField>
+        <TooltipText>
+        </TooltipText>
+        <vorgabewert>
+        </vorgabewert>
+        <groesse>
+        </groesse>
+        <maxLaenge>
+        </maxLaenge>
+        <mouseOverHintAvailable>
+        </mouseOverHintAvailable>
+        <mouseOverHintUnavailable>
+        </mouseOverHintUnavailable>
+        <vorgabeloeschen>True</vorgabeloeschen>
+        <StartYear>2023</StartYear>
+        <EndYear>2027</EndYear>
+        <relativeDateToday>True</relativeDateToday>
+        <relativeDateDays>-1</relativeDateDays>
+        <CheckWeekMo>False</CheckWeekMo>
+        <CheckWeekTue>False</CheckWeekTue>
+        <CheckWeekWed>False</CheckWeekWed>
+        <CheckWeekThu>False</CheckWeekThu>
+        <CheckWeekFri>False</CheckWeekFri>
+        <CheckWeekSat>False</CheckWeekSat>
+        <CheckWeekSu>False</CheckWeekSu>
+        <ExceptionDates />
+      </forms>
+    </ItemList>
+  </FileContent>
+</xml>
